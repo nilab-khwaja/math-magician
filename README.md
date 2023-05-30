@@ -62,11 +62,6 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Here you can see a live demo of my project
-
-- [Live Demo Link]()
 
 <!-- GETTING STARTED -->
 
