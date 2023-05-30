@@ -44,7 +44,7 @@
 
 - HTML
 - CSS
-- React & Redux
+- React
 - Linters
 
 
@@ -60,6 +60,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Here you can see a live demo of my project
+
+- [Live Demo Link]()
 
 <!-- GETTING STARTED -->
 
@@ -81,7 +88,7 @@
 - Clone this repository or download the Zip folder:
 
 ```
-git clone https://github.com/nilab-khwaja/math-magician
+git clone https://github.com/nilab-khwaja/Leaderboard
 ```
 
 - Navigate to the location of the folder in your machine:
@@ -112,10 +119,10 @@ Track JavaScript linter errors run:
 ```
 npx eslint .
 ```
+npm install --save-dev create-react-app .
+```
 npm start .
 ```
-
-
 
 ### Deployment
 
@@ -150,7 +157,7 @@ npm start .
 ## Credits
 
 - The original design ideal [Microverse💕](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10)
-- Project from [Microverse](https://bit.ly/MicroverseTN) javascript and networking module
+- Project from [Microverse](https://bit.ly/MicroverseTN) React and Redux module
 
 ## 🤝 Contributing
 
