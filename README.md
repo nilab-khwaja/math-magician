@@ -115,6 +115,8 @@ npx eslint .
 npm start .
 ```
 
+
+
 ### Deployment
 
 - I used GitHub Pages to deploy my website
@@ -148,7 +150,7 @@ npm start .
 ## Credits
 
 - The original design ideal [Microverse💕](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10)
-- Project from [Microverse](https://bit.ly/MicroverseTN) React and Redux module
+- Project from [Microverse](https://bit.ly/MicroverseTN) javascript and networking module
 
 ## 🤝 Contributing
 
