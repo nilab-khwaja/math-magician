@@ -1,30 +1,36 @@
+body{
+  box-sizing: border-box;
+}
+
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  gap: 10px;
-  padding: 10px;
-  background-color: #f2f2f2;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 30%;
 }
 
+.heading {
+  text-align: center;
+  width: 100%;
+}
+
 .result {
   grid-column: span 4;
   font-size: 3rem;
-  text-align: right;
+  justify-content: end;
+  background-color: rgb(133, 134, 148);
+  color: white;
 }
 
 div {
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  border: 1px solid lightgray;
-  padding: 2px;
+  font-size: 1rem;
+  border: 1px solid gray;
+  padding: 10px;
 }
 
 .orange {
@@ -37,4 +43,12 @@ div {
 
 div:hover {
   cursor: pointer;
+}
+
+.calculator div:not(.result) {
+  justify-content: center;
+}
+
+.calculator div:not(.result, .orange) {
+  background-color: rgb(224, 224, 224);
 }
