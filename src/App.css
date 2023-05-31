@@ -23,6 +23,7 @@ body {
   justify-content: end;
   background-color: rgb(133, 134, 148);
   color: white;
+  height: 70px;
 }
 
 div {
@@ -30,7 +31,7 @@ div {
   align-items: center;
   font-size: 1rem;
   border: 1px solid gray;
-  padding: 10px;
+  padding: 0;
 }
 
 .orange {
@@ -51,4 +52,8 @@ div:hover {
 
 .calculator div:not(.result, .orange) {
   background-color: rgb(224, 224, 224);
+}
+
+button {
+  padding: 10px;
 }
