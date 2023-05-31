@@ -31,7 +31,7 @@ div {
   align-items: center;
   font-size: 1rem;
   border: 1px solid gray;
-  padding: 0px;
+  padding: 0;
 }
 
 .orange {
@@ -54,6 +54,6 @@ div:hover {
   background-color: rgb(224, 224, 224);
 }
 
-button{
+button {
   padding: 10px;
 }
