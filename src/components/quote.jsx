@@ -1,9 +1,8 @@
-/* eslint-disable no-nested-ternary */
 import React, { useState, useEffect } from 'react';
 import fetchQuote from '../logic/fetchAPI';
 
 const Quote = () => {
-  const [quote, setQuote] = useState(' ');
+  const [quote, setQuote] = useState('');
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -17,17 +16,19 @@ const Quote = () => {
     };
     callFecthApi();
   }, [setQuote, setError]);
+
+  let quoteContent;
+  if (!quote && !error) {
+    quoteContent = <p>...loading</p>;
+  } else if (error && !quote) {
+    quoteContent = <p>{error}</p>;
+  } else {
+    quoteContent = <p>{quote}</p>;
+  }
+
   return (
     <>
-      <div className="quote-container">
-        {!quote && !error ? (
-          <p>...loading</p>
-        ) : error && !quote ? (
-          <p>{error}</p>
-        ) : (
-          <p>{quote}</p>
-        )}
-      </div>
+      <div className="quote-container">{quoteContent}</div>
     </>
   );
 };
